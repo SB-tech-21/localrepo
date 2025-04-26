@@ -18,12 +18,12 @@ all of these conversion will show the type as number but the values will not be 
 // Boolean Conversion
 let could = undefined
 
-console.log(could);
-console.log(typeof could);
+// console.log(could);
+// console.log(typeof could);
 
 let convertedName = Boolean(could)
-console.log(convertedName);
-console.log(typeof convertedName);
+// console.log(convertedName);
+// console.log(typeof convertedName);
 
 /*
 null=>Boolean will give u false as the value
@@ -33,3 +33,18 @@ Undefined => Boolean will give False
 
 all of these conversion will show the type as Boolean but the values will be either True / False so have to be careful in it.
 */
+
+
+// ========================OPERATIONS===========================
+// let num=100
+// console.log(num);
+// x=++num //if u are using prefix ++ then first the increment will be done then the assignment of that value will be done.
+// console.log(x);
+// console.log(num);
+
+let a=100
+console.log(a);
+b=a++ //if u are using postfix ++ then the assignment of the value along with the increment will be done but the value will remain same. Since the value is updated later, the value of b is still 100 and not 101. so this is the difference.
+console.log(b);
+console.log(a);
+
