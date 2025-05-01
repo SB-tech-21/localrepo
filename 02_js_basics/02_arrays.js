@@ -22,7 +22,7 @@ console.log(a.flat(Infinity));
 // from method : this let u convert anything into arrays like strings
 const name ='surjith'
 console.log(Array.from(name));// converts the string into array elements.
-let c = {surjith : 'Mirthula'}
+let c = {surjith : 'Baig'}
 console.log(Array.from(c));// this will give u empty array bcoz it doesnt know which to convert into array element.
 
 // Array.isarray() - lets u know whether the variable is a array or not
